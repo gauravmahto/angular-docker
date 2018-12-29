@@ -13,7 +13,15 @@ Dockerfile to help build Angular
 **Docker: Build and run**
 * Go to the Angular root dir.
 * Build as '```docker build --tag angular .```'
-* Run the container as '```docker run -v 'path/to/Angular/root/dir':/angular -it --rm angular /bin/bash```'
+* Run the container as '```docker run -d -v 'path/to/Angular/root/dir':/home/docker/angular -it --rm angular```'
+* To expose and use VNC run as '```docker run -d -p 5900:5900 -e VNC_SERVER_PASSWORD=password --user docker --privileged -v 'path/to/Angular/root/dir':/home/docker/angular -it --rm angular```'
+
+To connect to the running docker container 
+* Run ```docker exec -it <container-id> /bin/bash```
+
+To see all the running containers
+* Run ```docker container ls```
 
 **TODO**
 * Support test
+* Look into dumb-init support
