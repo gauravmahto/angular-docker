@@ -14,3 +14,6 @@ Dockerfile to help build Angular
 * Go to the Angular root dir.
 * Build as '```docker build --tag angular .```'
 * Run the container as '```docker run -v 'path/to/Angular/root/dir':/angular -it --rm angular /bin/bash```'
+
+**TODO**
+* Support test
