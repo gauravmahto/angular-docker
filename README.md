@@ -23,5 +23,5 @@ To see all the running containers
 * Run ```docker container ls```
 
 **TODO**
-* Support test
+* Support test. Some tests are failing in Node.js env. and the browser ones are not even getting starting. 
 * Look into dumb-init support

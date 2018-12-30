@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Based on: http://www.richud.com/wiki/Ubuntu_Fluxbox_GUI_with_x11vnc_and_Xvfb
+# Script shamelessly taken from https://gist.githubusercontent.com/stephen-fox/685138c7d0d094b9a0b9fe94665970ad/raw/1382fdba48afffa7eff596da21288cc599c3e64d/chrome-docker-bootstrap.sh
 
 readonly G_LOG_I='[INFO]'
 readonly G_LOG_W='[WARN]'
