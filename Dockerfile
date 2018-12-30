@@ -3,7 +3,8 @@
 # Use Ubuntu as the base image
 FROM ubuntu:18.04
 
-LABEL maintainer "Gaurav Mahto <gauravm.git@gmail.com>"
+LABEL maintainer="Gaurav Mahto <gauravm.git@gmail.com>"
+LABEL projet="Angular Docker"
 
 # Add a user for running applications.
 RUN useradd docker
